@@ -1,0 +1,12 @@
+/* ────────────────────────────────────────────────────────────
+ * Custom Theme for Walker
+ * Made with Omarchist
+ * ────────────────────────────────────────────────────────────
+ */
+
+@define-color selected-text #7D5B33;
+@define-color text #D95D5D;
+@define-color base #F5E6D3;
+@define-color border #E5BDAF;
+@define-color foreground #D95D5D;
+@define-color background #F5E6D3;
