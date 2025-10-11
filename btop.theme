@@ -1,0 +1,83 @@
+# ────────────────────────────────────────────────────────────
+# Custom Theme for btop
+# Made with Omarchist
+# ────────────────────────────────────────────────────────────
+
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#F5E6D3"
+
+# Main text color
+theme[main_fg]="#7D5B33"
+
+# Title color for boxes
+theme[title]="#DEA193"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#E30B5C"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#D95D5D"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#F5E6D3"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#F3BEAE"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#E30B5C"
+
+# Cpu box outline color
+theme[cpu_box]="#F3BEAE"
+
+# Memory/disks box outline color
+theme[mem_box]="#F3BEAE"
+
+# Net up/down box outline color
+theme[net_box]="#F3BEAE"
+
+# Processes box outline color
+theme[proc_box]="#F3BEAE"
+
+# Box divider line and small boxes line color
+theme[div_line]="#F3BEAE"
+
+# Temperature graph colors
+theme[temp_start]="#DEA193"
+theme[temp_mid]="#E5ADC8"
+theme[temp_end]="#E30B5C"
+
+# CPU graph colors
+theme[cpu_start]="#DEA193"
+theme[cpu_mid]="#E5ADC8"
+theme[cpu_end]="#E30B5C"
+
+# Mem/Disk free meter
+theme[free_start]="#DEA193"
+theme[free_mid]="#E5ADC8"
+theme[free_end]="#E30B5C"
+
+# Mem/Disk cached meter
+theme[cached_start]="#DEA193"
+theme[cached_mid]="#E5ADC8"
+theme[cached_end]="#E30B5C"
+
+# Mem/Disk available meter
+theme[available_start]="#DEA193"
+theme[available_mid]="#E5ADC8"
+theme[available_end]="#E30B5C"
+
+# Mem/Disk used meter
+theme[used_start]="#DEA193"
+theme[used_mid]="#E5ADC8"
+theme[used_end]="#E30B5C"
+
+# Download graph colors
+theme[download_start]="#DEA193"
+theme[download_mid]="#E5ADC8"
+theme[download_end]="#E30B5C"
+
+# Upload graph colors
+theme[upload_start]="#DEA193"
+theme[upload_mid]="#E5ADC8"
+theme[upload_end]="#E30B5C"
