@@ -1,18 +1,18 @@
 {
   "name": "RoseofDune",
   "created_at": "2025-10-10T17:01:06.922423940+00:00",
-  "modified_at": "2025-10-13T18:54:18.706305927+00:00",
+  "modified_at": "2025-10-13T19:37:41.368653443+00:00",
   "apps": {
     "alacritty": {
       "colors": {
         "bright": {
           "black": "#6F4C3E",
-          "blue": "#a38a76",
-          "cyan": "#B65B4D",
+          "blue": "#AD9980",
+          "cyan": "#3b3b28",
           "green": "#b76e79",
-          "magenta": "#88907b",
-          "red": "#E30B5C",
-          "white": "#e5bf8f",
+          "magenta": "#b76e81",
+          "red": "#a02b16",
+          "white": "#DEA193",
           "yellow": "#694C45"
         },
         "cursor": {
@@ -21,17 +21,17 @@
         },
         "normal": {
           "black": "#F5E6D3",
-          "blue": "#a38a76",
-          "cyan": "#B65B4D",
+          "blue": "#AD9980",
+          "cyan": "#3b3b28",
           "green": "#b76e79",
-          "magenta": "#88907b",
-          "red": "#E30B5C",
-          "white": "#e5bf8f",
-          "yellow": "#694C45"
+          "magenta": "#b76e81",
+          "red": "#a02b16",
+          "white": "#DEA193",
+          "yellow": "#644535"
         },
         "primary": {
           "background": "#F5E6D3",
-          "dim_foreground": "#a38a76",
+          "dim_foreground": "#F5E6D3",
           "foreground": "#35302a"
         },
         "selection": {
@@ -75,34 +75,34 @@
         },
         "cpu": {
           "cpu_end": "#a02b16",
-          "cpu_mid": "#eaa0a2",
+          "cpu_mid": "#DEA193",
           "cpu_start": "#b76e81"
         },
         "memory": {
           "available_end": "#FED1C0",
-          "available_mid": "#eaa0a2",
+          "available_mid": "#DEA193",
           "available_start": "#b76e81",
           "cached_end": "#FED1C0",
-          "cached_mid": "#eaa0a2",
+          "cached_mid": "#DEA193",
           "cached_start": "#b76e81",
           "free_end": "#FED1C0",
-          "free_mid": "#eaa0a2",
+          "free_mid": "#DEA193",
           "free_start": "#b76e81",
           "used_end": "#FED1C0",
-          "used_mid": "#eaa0a2",
+          "used_mid": "#DEA193",
           "used_start": "#b76e81"
         },
         "network": {
           "download_end": "#FED1C0",
-          "download_mid": "#eaa0a2",
+          "download_mid": "#DEA193",
           "download_start": "#b76e81",
           "upload_end": "#FED1C0",
-          "upload_mid": "#eaa0a2",
+          "upload_mid": "#DEA193",
           "upload_start": "#b76e81"
         },
         "temperature": {
           "temp_end": "#FED1C0",
-          "temp_mid": "#eaa0a2",
+          "temp_mid": "#DEA193",
           "temp_start": "#b76e81"
         }
       },
@@ -145,13 +145,13 @@
       "colors": {
         "bright": {
           "black": "#6F4C3E",
-          "blue": "#644535",
+          "blue": "#AD9980",
           "cyan": "#3b3b28",
           "green": "#b76e79",
           "magenta": "#b76e81",
           "red": "#a02b16",
-          "white": "#AD9980",
-          "yellow": "#B6ACA3"
+          "white": "#DEA193",
+          "yellow": "#644535"
         },
         "cursor": {
           "cursor": "#b76e79",
@@ -161,10 +161,10 @@
           "black": "#F5E6D3",
           "blue": "#AD9980",
           "cyan": "#3b3b28",
-          "green": "#b76e79",
+          "green": "#B76E79",
           "magenta": "#b76e81",
           "red": "#a02b16",
-          "white": "#AD9980",
+          "white": "#DEA193",
           "yellow": "#644535"
         },
         "primary": {
@@ -172,8 +172,8 @@
           "foreground": "#35302a"
         },
         "selection": {
-          "background": "#F5E6D3",
-          "foreground": "#35302a"
+          "background": "#B76E79",
+          "foreground": "#B76E79"
         }
       }
     },
@@ -211,13 +211,13 @@
       "colors": {
         "bright": {
           "black": "#6F4C3E",
-          "blue": "#a38a76",
-          "cyan": "#B65B4D",
+          "blue": "#AD9980",
+          "cyan": "#3b3b28",
           "green": "#b76e79",
-          "magenta": "#88907b",
-          "red": "#E30B5C",
-          "white": "#e5bf8f",
-          "yellow": "#694C45"
+          "magenta": "#b76e81",
+          "red": "#a02b16",
+          "white": "#DEA193",
+          "yellow": "#644535"
         },
         "cursor": {
           "cursor": "#b76e79",
@@ -225,21 +225,21 @@
         },
         "normal": {
           "black": "#F5E6D3",
-          "blue": "#a38a76",
-          "cyan": "#B65B4D",
+          "blue": "#AD9980",
+          "cyan": "#3b3b28",
           "green": "#b76e79",
-          "magenta": "#88907b",
-          "red": "#E30B5C",
-          "white": "#e5bf8f",
-          "yellow": "#694C45"
+          "magenta": "#b76e81",
+          "red": "#a02b16",
+          "white": "#DEA193",
+          "yellow": "#644535"
         },
         "primary": {
           "background": "#F5E6D3",
           "foreground": "#35302a"
         },
         "selection": {
-          "background": "#F5E6D3",
-          "foreground": "#b76e79"
+          "background": "#b76e79",
+          "foreground": "#F5E6D3"
         }
       }
     },
@@ -321,12 +321,12 @@
       "foreground": "#35302a"
     },
     "terminal": {
-      "red": "#e30b5c",
+      "red": "#a02b16",
       "green": "#b76e79",
-      "yellow": "#694c45",
-      "blue": "#a38a76",
-      "magenta": "#88907b",
-      "cyan": "#b65b4d"
+      "yellow": "#644535",
+      "blue": "#ad9980",
+      "magenta": "#b76e81",
+      "cyan": "#3b3b28"
     }
   }
 }
