@@ -1,7 +1,7 @@
 {
   "name": "RoseofDune",
   "created_at": "2025-10-10T17:01:06.922423940+00:00",
-  "modified_at": "2025-10-11T13:37:13.026585433+00:00",
+  "modified_at": "2025-10-13T18:54:18.706305927+00:00",
   "apps": {
     "alacritty": {
       "colors": {
@@ -9,24 +9,24 @@
           "black": "#6F4C3E",
           "blue": "#a38a76",
           "cyan": "#B65B4D",
-          "green": "#D95D5D",
-          "magenta": "#3E8B59",
-          "red": "#E02B20",
-          "white": "#F0B49A",
-          "yellow": "#3D2B28"
+          "green": "#b76e79",
+          "magenta": "#88907b",
+          "red": "#E30B5C",
+          "white": "#e5bf8f",
+          "yellow": "#694C45"
         },
         "cursor": {
-          "cursor": "#D95D5D",
+          "cursor": "#b76e79",
           "text": "#35302a"
         },
         "normal": {
           "black": "#F5E6D3",
           "blue": "#a38a76",
           "cyan": "#B65B4D",
-          "green": "#DEA193",
-          "magenta": "#3E8B59",
-          "red": "#E02B20",
-          "white": "#F0B49A",
+          "green": "#b76e79",
+          "magenta": "#88907b",
+          "red": "#E30B5C",
+          "white": "#e5bf8f",
           "yellow": "#694C45"
         },
         "primary": {
@@ -35,7 +35,7 @@
           "foreground": "#35302a"
         },
         "selection": {
-          "background": "#D95D5D"
+          "background": "#b76e79"
         }
       },
       "font": {
@@ -57,53 +57,53 @@
       "cached_start": "#8a8a8d",
       "colors": {
         "basic": {
-          "hi_fg": "#E30B5C",
-          "inactive_fg": "#F3BEAE",
+          "hi_fg": "#a02b16",
+          "inactive_fg": "#E8DDCA",
           "main_bg": "#F5E6D3",
-          "main_fg": "#7D5B33",
-          "proc_misc": "#E30B5C",
-          "selected_bg": "#D95D5D",
+          "main_fg": "#804d5a",
+          "proc_misc": "#a02b16",
+          "selected_bg": "#b76e79",
           "selected_fg": "#F5E6D3",
-          "title": "#DEA193"
+          "title": "#b76e79"
         },
         "boxes": {
-          "cpu_box": "#F3BEAE",
-          "div_line": "#F3BEAE",
-          "mem_box": "#F3BEAE",
-          "net_box": "#F3BEAE",
-          "proc_box": "#F3BEAE"
+          "cpu_box": "#eaa0a2",
+          "div_line": "#eaa0a2",
+          "mem_box": "#eaa0a2",
+          "net_box": "#eaa0a2",
+          "proc_box": "#eaa0a2"
         },
         "cpu": {
-          "cpu_end": "#E30B5C",
-          "cpu_mid": "#E5ADC8",
-          "cpu_start": "#DEA193"
+          "cpu_end": "#a02b16",
+          "cpu_mid": "#eaa0a2",
+          "cpu_start": "#b76e81"
         },
         "memory": {
-          "available_end": "#E30B5C",
-          "available_mid": "#E5ADC8",
-          "available_start": "#DEA193",
-          "cached_end": "#E30B5C",
-          "cached_mid": "#E5ADC8",
-          "cached_start": "#DEA193",
-          "free_end": "#E30B5C",
-          "free_mid": "#E5ADC8",
-          "free_start": "#DEA193",
-          "used_end": "#E30B5C",
-          "used_mid": "#E5ADC8",
-          "used_start": "#DEA193"
+          "available_end": "#FED1C0",
+          "available_mid": "#eaa0a2",
+          "available_start": "#b76e81",
+          "cached_end": "#FED1C0",
+          "cached_mid": "#eaa0a2",
+          "cached_start": "#b76e81",
+          "free_end": "#FED1C0",
+          "free_mid": "#eaa0a2",
+          "free_start": "#b76e81",
+          "used_end": "#FED1C0",
+          "used_mid": "#eaa0a2",
+          "used_start": "#b76e81"
         },
         "network": {
-          "download_end": "#E30B5C",
-          "download_mid": "#E5ADC8",
-          "download_start": "#DEA193",
-          "upload_end": "#E30B5C",
-          "upload_mid": "#E5ADC8",
-          "upload_start": "#DEA193"
+          "download_end": "#FED1C0",
+          "download_mid": "#eaa0a2",
+          "download_start": "#b76e81",
+          "upload_end": "#FED1C0",
+          "upload_mid": "#eaa0a2",
+          "upload_start": "#b76e81"
         },
         "temperature": {
-          "temp_end": "#E30B5C",
-          "temp_mid": "#E5ADC8",
-          "temp_start": "#DEA193"
+          "temp_end": "#FED1C0",
+          "temp_mid": "#eaa0a2",
+          "temp_start": "#b76e81"
         }
       },
       "cpu_box": "#8a8a8d",
@@ -139,30 +139,66 @@
       "used_start": "#8a8a8d"
     },
     "chromium": {
-      "theme_color": "#F3BEAE"
+      "theme_color": "#644535"
     },
-    "ghostty": {},
+    "ghostty": {
+      "colors": {
+        "bright": {
+          "black": "#6F4C3E",
+          "blue": "#644535",
+          "cyan": "#3b3b28",
+          "green": "#b76e79",
+          "magenta": "#b76e81",
+          "red": "#a02b16",
+          "white": "#AD9980",
+          "yellow": "#B6ACA3"
+        },
+        "cursor": {
+          "cursor": "#b76e79",
+          "text": "#35302a"
+        },
+        "normal": {
+          "black": "#F5E6D3",
+          "blue": "#AD9980",
+          "cyan": "#3b3b28",
+          "green": "#b76e79",
+          "magenta": "#b76e81",
+          "red": "#a02b16",
+          "white": "#AD9980",
+          "yellow": "#644535"
+        },
+        "primary": {
+          "background": "#F5E6D3",
+          "foreground": "#35302a"
+        },
+        "selection": {
+          "background": "#F5E6D3",
+          "foreground": "#35302a"
+        }
+      }
+    },
     "hyprland": {
       "active_border": "8A8A8D",
       "decoration": {
-        "rounding": 1
+        "rounding": 0
       },
       "general": {
-        "active_border": "E5BDAF",
+        "active_border": "b76e79",
         "border_size": 2,
+        "gaps_in": 4,
         "gaps_out": 3,
-        "inactive_border": "4B3D31"
+        "inactive_border": "644535"
       }
     },
     "hyprlock": {
       "check_color": "245,158,11,1.0",
       "color": "12,12,12,1.0",
       "colors": {
-        "check_color": "125,91,51,1.0",
+        "check_color": "183,110,121,1.0",
         "color": "245,230,211,1.0",
-        "font_color": "217,93,93,1.0",
+        "font_color": "183,110,121,1.0",
         "inner_color": "245,230,211,1.0",
-        "outer_color": "229,189,175,1.0"
+        "outer_color": "183,110,121,1.0"
       },
       "font_color": "234,234,234,1.0",
       "inner_color": "138,138,141,0.3",
@@ -171,7 +207,42 @@
     "icons": {
       "theme_name": "Yaru-magenta"
     },
-    "kitty": {},
+    "kitty": {
+      "colors": {
+        "bright": {
+          "black": "#6F4C3E",
+          "blue": "#a38a76",
+          "cyan": "#B65B4D",
+          "green": "#b76e79",
+          "magenta": "#88907b",
+          "red": "#E30B5C",
+          "white": "#e5bf8f",
+          "yellow": "#694C45"
+        },
+        "cursor": {
+          "cursor": "#b76e79",
+          "text": "#35302a"
+        },
+        "normal": {
+          "black": "#F5E6D3",
+          "blue": "#a38a76",
+          "cyan": "#B65B4D",
+          "green": "#b76e79",
+          "magenta": "#88907b",
+          "red": "#E30B5C",
+          "white": "#e5bf8f",
+          "yellow": "#694C45"
+        },
+        "primary": {
+          "background": "#F5E6D3",
+          "foreground": "#35302a"
+        },
+        "selection": {
+          "background": "#F5E6D3",
+          "foreground": "#b76e79"
+        }
+      }
+    },
     "mako": {
       "anchor": "top-right",
       "background_color": "#1e1e1e",
@@ -180,8 +251,8 @@
       "colors": {
         "normal": {
           "background_color": "#F5E6D3",
-          "border_color": "#E5BDAF",
-          "text_color": "#D95D5D"
+          "border_color": "#b76e79",
+          "text_color": "#b76e79"
         }
       },
       "default_timeout": 5000,
@@ -205,16 +276,18 @@
       "border_color": "#8A8A8D",
       "colors": {
         "background_color": "#F5E6D3",
-        "border_color": "#e5bdaf",
-        "image": "#7D5B33",
+        "border_color": "#b76e79",
+        "image": "#644535",
         "label": "#F5E6D3",
-        "progress": "#D95D5D"
+        "progress": "#b76e79"
       },
       "image": "#8A8A8D",
       "label": "#8A8A8D",
       "progress": "#8A8A8D"
     },
-    "vscode": {},
+    "vscode": {
+      "raw_config": "{\n  \"name\": \"pale rose theme\",\n  \"extension\": \"chee.pale-rose\"\n}"
+    },
     "walker": {
       "background": "#121212",
       "base": "#121212",
@@ -222,10 +295,10 @@
       "colors": {
         "background": "#F5E6D3",
         "base": "#F5E6D3",
-        "border": "#E5BDAF",
-        "foreground": "#D95D5D",
-        "selected_text": "#7D5B33",
-        "text": "#D95D5D"
+        "border": "#644535",
+        "foreground": "#b76e79",
+        "selected_text": "#644535",
+        "text": "#b76e79"
       },
       "foreground": "#EAEAEA",
       "selected_text": "#B91C1C",
@@ -235,8 +308,8 @@
       "background": "#1e1e1e",
       "colors": {
         "main": {
-          "background": "#F3BEAE",
-          "foreground": "#7D5B33"
+          "background": "#F5E6D3",
+          "foreground": "#b76e79"
         }
       },
       "foreground": "#8a8a8d"
@@ -248,11 +321,11 @@
       "foreground": "#35302a"
     },
     "terminal": {
-      "red": "#e02b20",
-      "green": "#dea193",
+      "red": "#e30b5c",
+      "green": "#b76e79",
       "yellow": "#694c45",
       "blue": "#a38a76",
-      "magenta": "#3e8b59",
+      "magenta": "#88907b",
       "cyan": "#b65b4d"
     }
   }
