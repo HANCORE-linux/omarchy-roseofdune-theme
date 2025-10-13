@@ -2,7 +2,10 @@
 Theme is for https://omarchy.org/. 
 
 # Screenshots
-<img width="2560" height="1440" alt="screenshot-2025-10-13_20-21-00" src="https://github.com/user-attachments/assets/1c401c57-3b3f-42f1-bf05-0baf399988e7" />
+<img width="2560" height="1440" alt="screenshot-2025-10-13_20-59-30" src="https://github.com/user-attachments/assets/f4e32946-abb6-4383-bd0b-cec3bd920767" />
+
+
+
 
 
 
