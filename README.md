@@ -1,4 +1,4 @@
-# Rose Dune
+# Rose of Dune
 Theme is for https://omarchy.org/. 
 
 # Screenshots
