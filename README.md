@@ -20,7 +20,7 @@ omarchy-theme-install https://github.com/HANCORE-linux/omarchy-roseofdune-theme.
 ## Vesktop-Theme
 For Vesktop users, you can install this theme by copying the theme file to your Vesktop themes directory:
 ```bash
-cp system24-Demon.css ~/.config/vesktop/themes/system24-Demon.css
+cp system24-roseofdune.css ~/.config/vesktop/themes/system24-roseofdune.css
 ```
 
 ## Neovim-Theme
