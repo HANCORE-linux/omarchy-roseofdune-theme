@@ -1,5 +1,7 @@
 # Rose of Dune
-Theme is for https://omarchy.org/. 
+Inspired by the gentle glow of desert dunes at dusk, where rose-gold light meets earthy brown shadows.
+White and rose-toned surfaces evoke calm and elegance, while the brown whisper adds depth and grounded warmth.
+Designed for those who want a subtle, refined workspace — graceful, inviting and quietly radiant.
 
 # Screenshots
 <img width="2560" height="1440" alt="screenshot-2025-10-13_20-59-30" src="https://github.com/user-attachments/assets/f4e32946-abb6-4383-bd0b-cec3bd920767" />
