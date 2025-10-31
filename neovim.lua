@@ -5,13 +5,41 @@
 
 return {
 	{
-		"bjarneo/pixel.nvim",
-		name = "pixel",
+		"bjarneo/aether.nvim",
+		name = "roseofdune-desertgold-v2",
+		priority = 1000,
+		opts = {
+			disable_italics = false,
+			colors = {
+				-- Base shades
+				base00 = "#F5E6D3", -- Background (sand)
+				base01 = "#EBD1B8", -- Panels / lighter background
+				base02 = "#EBD1B8", -- Selection
+				base03 = "#7A6A57", -- Comments (muted cocoa-brown)
+				base04 = "#6B5843", -- Operators / punctuation / support lines
+				base05 = "#3C2B20", -- Foreground / main text
+				base06 = "#2B1E15", -- Deep text / bold
+				base07 = "#E6D1C2", -- Bright text / off-white (readable)
+
+				-- Accents
+				base08 = "#B34438", -- Errors / alerts
+				base09 = "#7CA973", -- Constants / numbers (gold-green)
+				base0A = "#D28C74", -- Keywords (coral-rose)
+				base0B = "#B88642", -- Strings (gold-bronze)
+				base0C = "#6B5843", -- Support / types / structure
+				base0D = "#C87C6A", -- Functions (rose-gold)
+				base0E = "#B36E5B", -- Highlights / deprecated (darker rose-gold)
+				base0F = "#D9A06B", -- Cursor / accent
+			},
+		},
+		config = function(_, opts)
+			require("aether").setup(opts)
+			vim.cmd.colorscheme("aether")
+			require("aether.hotreload").setup()
+		end,
 	},
 	{
 		"LazyVim/LazyVim",
-		opts = {
-			colorscheme = "pixel",
-		},
+		opts = { colorscheme = "aether" },
 	},
 }
