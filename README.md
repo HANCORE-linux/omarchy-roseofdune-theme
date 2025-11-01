@@ -5,6 +5,7 @@ Designed for those who want a subtle, refined workspace — graceful, inviting a
 
 # Screenshots
 <img width="2560" height="1440" alt="screenshot-2025-10-13_20-59-30" src="https://github.com/user-attachments/assets/f4e32946-abb6-4383-bd0b-cec3bd920767" />
+<img width="2560" height="1440" alt="screenshot-2025-10-31_23-46-52" src="https://github.com/user-attachments/assets/24708ab1-1b4d-4d21-88cd-3d246644b5df" />
 
 
 
