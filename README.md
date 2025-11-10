@@ -4,7 +4,8 @@ White and rose-toned surfaces evoke calm and elegance, while the brown whisper a
 Designed for those who want a subtle, refined workspace — graceful, inviting and quietly radiant.
 
 # Screenshots
-<img width="2560" height="1440" alt="screenshot-2025-10-13_20-59-30" src="https://github.com/user-attachments/assets/f4e32946-abb6-4383-bd0b-cec3bd920767" />
+<img width="2560" height="1440" alt="screenshot-2025-11-10_18-18-26" src="https://github.com/user-attachments/assets/b8da314b-c7e0-4602-b7dd-ef467b85d290" />
+
 <img width="2560" height="1440" alt="screenshot-2025-10-31_23-46-52" src="https://github.com/user-attachments/assets/24708ab1-1b4d-4d21-88cd-3d246644b5df" />
 
 
