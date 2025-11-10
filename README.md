@@ -27,16 +27,9 @@ For Vesktop users, you can install this theme by copying (usally from ~/Download
 cp system24-roseofdune.css ~/.config/vesktop/themes/system24-roseofdune.css
 ```
 
-## Neovim-Theme
-- Using https://github.com/bjarneo Pixel Theme which use the colors from terminal syntax <br>
-- Check https://github.com/bjarneo/pixel.nvim <br>
-- Make sure Lazyvim is update to date type :Lazy <br>
-
-## VSCode-Theme
-- Using Theme: "pale rose theme"
-- Using Extension-ID: "chee.pale-rose"
-- If Theme is not getting installed , do it manually: Open VSCode > Click on Extensions > type: pale rose theme
-
+## VSCode, GTK, Spotify etc..
+- use [imbypass](https://github.com/imbypass/omarchy-hook-theme-set-ex/tree/main) hook script for almost all other applications
+  
 ## Waybar-Theme
 For my Waybar-Theme simply check my Link https://github.com/HANCORE-linux/Waybar-Theme-red-accents-.git
 
