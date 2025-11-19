@@ -31,3 +31,7 @@ window .box-wrapper {
     box-shadow: 0 2px 12px alpha(@selected-text, 0.5);
     backdrop-filter: blur(10px);
 }
+window .search-container text {
+    color: @selected-text;
+    caret-color: @selected-text;
+}
