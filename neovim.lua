@@ -35,6 +35,7 @@ return {
 		config = function(_, opts)
 			require("aether").setup(opts)
 			vim.cmd.colorscheme("aether")
+			vim.o.background = "light"
 			require("aether.hotreload").setup()
 		end,
 	},
