@@ -9,3 +9,27 @@
 @define-color label #F5E6D3;
 @define-color image #644535;
 @define-color progress #b76e79;
+
+/* Cancel out Omarchy settings */
+window:not(:backdrop),
+window:backdrop {
+    border: none;
+    border-width: 0;
+    border-radius: 4px;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 12px;
+}
+
+
+/* Draw a new background */
+window:not(:backdrop) #container,
+window:backdrop #container {
+    border: 2px solid @border-color;
+    border-radius: 6px;
+    background-color: @background-color;
+    padding: 12px;
+    background-clip: padding-box;
+    box-shadow: 2px 2px 9px 0px rgba(22, 22, 22, 1);
+
+}
