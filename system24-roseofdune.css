@@ -96,7 +96,7 @@ body {
     /* background and dark colors */
     --bg-1: #AD9980; /* dark buttons when clicked */
     --bg-2: #AD9980; /* dark buttons */
-    --bg-3: #b76e81; /* spacing, secondary elements */
+    --bg-3: #D0C4B3; /* spacing, secondary elements */
     --bg-4: #F5E6D3; /* main background color */
     --hover: hsla(250, 20%, 40%, 0.1); /* channels and buttons when hovered */
     --active: hsla(250, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
@@ -105,8 +105,8 @@ body {
 
     /* accent colors */
     --accent-1: #a02b16; /* links and other accent text */
-    --accent-2: #ebbcba; /* small accent elements */
-    --accent-3: #ebbcba; /* accent buttons */
+    --accent-2: #b76e81; /* small accent elements */
+    --accent-3: #AD9980; /* accent buttons */
     --accent-4: #AD9980; /* accent buttons when hovered */
     --accent-5: #b76e81; /* accent buttons when clicked */
     --accent-new: var(--red-2); /* stuff that's normally red like mute/deafen buttons */
