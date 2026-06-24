@@ -35,7 +35,7 @@ window .box-wrapper {
     transform-origin: top center;
 }
 window .search-container {
-    border-bottom: 1.5px solid @accent;
+    border-bottom: 1.5px solid @salmon;
     padding: 6px 8px; margin-bottom: 6px; background: transparent;
 }
 window .input { background: transparent; color: @text; caret-color: @terracotta; font-size: 15px; }
