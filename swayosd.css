@@ -1,35 +1,39 @@
-/* ────────────────────────────────────────────────────────────
- * Custom Theme for SwayOSD
- * Made with Omarchist
- * ────────────────────────────────────────────────────────────
- */
+@define-color background-color rgba(245, 230, 211, 0.92);
+@define-color border-color #9e4f5b;
+@define-color label #35302a;
+@define-color image #35302a;
+@define-color progress #9e4f5b;
 
-@define-color background-color #F5E6D3;
-@define-color border-color #b76e79;
-@define-color label #F5E6D3;
-@define-color image #644535;
-@define-color progress #b76e79;
-
-/* Cancel out Omarchy settings */
+/* Cancel out Omarchy's default window styling (neutralize structural style.css) */
 window:not(:backdrop),
 window:backdrop {
     border: none;
     border-width: 0;
-    border-radius: 4px;
+    border-radius: 6px;
     background-color: transparent;
     box-shadow: none;
     padding: 12px;
 }
 
-
-/* Draw a new background */
+/* Draw the OSD box on the inner #container -> clean rounded corners (radius 4 = hyprland) + transparency */
 window:not(:backdrop) #container,
 window:backdrop #container {
-    border: 2px solid @border-color;
+    border: 1px solid @border-color;
     border-radius: 6px;
     background-color: @background-color;
+    background-image: linear-gradient(to bottom, rgba(53, 48, 42, 0.04), transparent);
     padding: 12px;
     background-clip: padding-box;
-    box-shadow: 2px 2px 9px 0px rgba(22, 22, 22, 1);
+    box-shadow: 2px 2px 9px 0px rgba(53, 48, 42, 0.28);
+}
 
+/* Volume / brightness bar: subtle dark track + sage fill */
+progressbar trough {
+    background-color: rgba(200, 172, 134, 0.55);
+    border: 1px solid rgba(158, 79, 91, 0.22);
+    border-radius: 4px;
+}
+
+progress {
+    border-radius: 4px;
 }

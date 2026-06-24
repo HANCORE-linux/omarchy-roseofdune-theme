@@ -1,0 +1,22 @@
+{
+    "name": "theme-roseofdune",
+    "displayName": "RoseofDune Theme",
+    "description": "RoseofDune color theme (rose/terracotta/cream, AA)",
+    "publisher": "local",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "RoseofDune",
+                "uiTheme": "vs",
+                "path": "./themes/roseofdune-color-theme.json"
+            }
+        ]
+    }
+}

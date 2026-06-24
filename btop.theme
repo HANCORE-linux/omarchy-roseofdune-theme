@@ -1,83 +1,51 @@
-# ────────────────────────────────────────────────────────────
-# Custom Theme for btop
-# Made with Omarchist
-# ────────────────────────────────────────────────────────────
-
-# Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]="#F5E6D3"
-
-# Main text color
-theme[main_fg]="#804d5a"
-
-# Title color for boxes
-theme[title]="#b76e79"
-
-# Highlight color for keyboard shortcuts
+# roseofdune — btop (dos-moos-Layout, unsere Farben, Standard-Terminal-bg)
+theme[main_bg]=""
+theme[main_fg]="#35302a"
+theme[title]="#9e4f5b"
 theme[hi_fg]="#a02b16"
-
-# Background color of selected item in processes box
-theme[selected_bg]="#b76e79"
-
-# Foreground color of selected item in processes box
-theme[selected_fg]="#F5E6D3"
-
-# Color of inactive/disabled text
-theme[inactive_fg]="#d1b292"
-
-# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#a02b16"
-
-# Cpu box outline color
-theme[cpu_box]="#eaa0a2"
-
-# Memory/disks box outline color
-theme[mem_box]="#eaa0a2"
-
-# Net up/down box outline color
-theme[net_box]="#eaa0a2"
-
-# Processes box outline color
-theme[proc_box]="#eaa0a2"
-
-# Box divider line and small boxes line color
-theme[div_line]="#eaa0a2"
-
-# Temperature graph colors
-theme[temp_start]="#dea193"
-theme[temp_mid]="#b76e81"
-theme[temp_end]="#7D1E0F"
-
-# CPU graph colors
-theme[cpu_start]="#9e5d4e"
-theme[cpu_mid]="#b76e81"
+theme[selected_bg]="#C8AC86"
+theme[selected_fg]="#35302a"
+theme[inactive_fg]="#8a7560"
+theme[graph_text]="#35302a"
+theme[meter_bg]="#e3d2bb"
+theme[proc_misc]="#76634c"
+theme[cpu_box]="#9e4f5b"
+theme[mem_box]="#9e4f5b"
+theme[net_box]="#9e4f5b"
+theme[proc_box]="#9e4f5b"
+theme[div_line]="#c8ac86"
+theme[temp_start]="#76634c"
+theme[temp_mid]="#c05a2e"
+theme[temp_end]="#a02b16"
+theme[cpu_start]="#9e4f5b"
+theme[cpu_mid]="#b85540"
 theme[cpu_end]="#a02b16"
-
-# Mem/Disk free meter
-theme[free_start]="#dea193"
-theme[free_mid]="#b76e81"
-theme[free_end]="#7D1E0F"
-
-# Mem/Disk cached meter
-theme[cached_start]="#dea193"
-theme[cached_mid]="#b76e81"
-theme[cached_end]="#7D1E0F"
-
-# Mem/Disk available meter
-theme[available_start]="#dea193"
-theme[available_mid]="#b76e81"
-theme[available_end]="#7D1E0F"
-
-# Mem/Disk used meter
-theme[used_start]="#dea193"
-theme[used_mid]="#b76e81"
-theme[used_end]="#7D1E0F"
-
-# Download graph colors
-theme[download_start]="#dea193"
-theme[download_mid]="#b76e81"
-theme[download_end]="#7D1E0F"
-
-# Upload graph colors
-theme[upload_start]="#dea193"
-theme[upload_mid]="#b76e81"
-theme[upload_end]="#7D1E0F"
+theme[free_start]="#76634c"
+theme[free_mid]="#9e4f5b"
+theme[free_end]="#7a3a48"
+theme[cached_start]="#76634c"
+theme[cached_mid]="#b3697a"
+theme[cached_end]="#9e4f5b"
+theme[available_start]="#76634c"
+theme[available_mid]="#9e4f5b"
+theme[available_end]="#7a3a48"
+theme[used_start]="#76634c"
+theme[used_mid]="#c05a2e"
+theme[used_end]="#a02b16"
+theme[download_start]="#76634c"
+theme[download_mid]="#9e4f5b"
+theme[download_end]="#b3697a"
+theme[upload_start]="#9e4f5b"
+theme[upload_mid]="#b85540"
+theme[upload_end]="#c8643a"
+theme[process_start]="#76634c"
+theme[process_mid]="#b3697a"
+theme[process_end]="#9e4f5b"
+theme[gradient_color_0]="#bda085"
+theme[gradient_color_1]="#b3697a"
+theme[gradient_color_2]="#a85563"
+theme[gradient_color_3]="#9e4f5b"
+theme[gradient_color_4]="#a83f3a"
+theme[gradient_color_5]="#a02b16"
+theme[gradient_color_6]="#882016"
+theme[gradient_color_7]="#6e1812"

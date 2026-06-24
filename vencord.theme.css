@@ -1,29 +1,30 @@
-    /**
-    * @name Omarchy
-    * @author @bypass_
-    * @version 0.1.0
-    * @description Match Omarchy system theme.
-    * @source https://github.com/imbypass/base16-Discord
-    **/
+/**
+* @name base16 Discord
+* @author @bypass_
+* @version 0.1.0
+* @description Built using Aether and Pywal
+* @source https://github.com/imbypass/base16-Discord
+**/
 
-    :root {
-        --color00: #F5E6D3;
-        --color01: #D0C4B3;
-        --color02: #D0C4B3;
-        --color03: #694C45;
-        --color04: #DEA193;
-        --color05: #3b3b28;
-        --color06: #DEA193;
-        --color07: #694C45;
-        --color08: #a02b16;
-        --color09: #644535;
-        --color10: #644535;
-        --color11: #b76e79;
-        --color12: #3b3b28;
-        --color13: #3b3b28;
-        --color14: #b76e81;
-        --color15: #644535;
-   --base00: var(--color00);
+
+:root {
+    --color00: #F5E6D3;
+    --color01: #ecdcc6;
+    --color02: #ddc3c9;
+    --color03: #8a7058;
+    --color04: #6b5e52;
+    --color05: #35302a;
+    --color06: #2a2620;
+    --color07: #2a2620;
+    --color08: #a02b16;
+    --color09: #9b5625;
+    --color10: #76661d;
+    --color11: #76634c;
+    --color12: #713a56;
+    --color13: #9e4f5b;
+    --color14: #8a3a52;
+    --color15: #6e4a3a;
+    --base00: var(--color00);
     --base01: var(--color01);
     --base02: var(--color02);
     --base03: var(--color03);
@@ -95,7 +96,7 @@
     --button-danger-background-disabled: var(--base03) !important;
     --button-filled-brand-background: var(--base0B) !important;
     --button-filled-brand-background-hover: var(--base08) !important;
-    --button-filled-brand-text: var(--base08) !important;
+    --button-filled-brand-text: var(--base00) !important;
     --button-filled-brand-text-hover: var(--base05) !important;
     --button-outline-positive-border: var(--base0B) !important;
     --button-outline-danger-background-hover: var(--base08) !important;
@@ -247,7 +248,7 @@ div[class*="numberBadge"],
 span[class*="numberBadge"],
 div[class*="textBadge"],
 span[class*="textBadge"] {
-    background-color: var(--base04) !important;
+    background-color: var(--base0B) !important;
     color: var(--base00) !important;
 }
 
@@ -385,7 +386,7 @@ div[class^="bar__"] {
 
 /*--- Sidebar Icon Recolor ---*/
 .circleIconButton__5bc7e {
-    color: var(--base06);
+    color: var(--base04);
 }
 
 /*--- Summaries Tag Icon Recolor ---*/
@@ -442,7 +443,7 @@ div.folderIconWrapper__48112 {
 
 /*--- New Messages Summary Bar Recolor -J--*/
 .newMessagesBar__0f481 {
-    background-color: var(--base02);
+    background-color: var(--base03);
 
     button.barButtonAlt__0f481 {
         background-color: var(--base02) !important;
@@ -462,7 +463,7 @@ div[class*="numberBadge"] {
 /*--- Button Text Recolor ---*/
 .lookFilled__201d5.colorGreen__201d5,
 .lookFilled__201d5.colorRed__201d5 {
-    color: var(--base06) !important;
+    color: var(--base00) !important;
 }
 
 /*--- Remove Folder Group Borders ---*/
@@ -647,7 +648,7 @@ div[class*="numberBadge"] {
   right: 0;
   bottom: 0;
   width: 1px;
-  background: #D0C4B3;
+  background: rgba(255,255,255,0.05);
   transform: scaleX(0.5);
   transform-origin: right;
   pointer-events: none;

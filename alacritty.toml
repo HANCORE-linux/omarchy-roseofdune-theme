@@ -11,28 +11,28 @@ dim_foreground = "#F5E6D3"
 
 [colors.cursor]
 text = "#35302a"
-cursor = "#b76e79"
+cursor = "#DEA193"
 
 [colors.selection]
 text = "#35302a"
-background = "#B76e79"
+background = "#c68d95"
 
 [colors.normal]
 black = "#F5E6D3"
 red = "#a02b16"
-green = "#b76e79"
+green = "#9e4f5b"
 yellow = "#644535"
-blue = "#AD9980"
-magenta = "#b76e81"
-cyan = "#3b3b28"
-white = "#DEA193"
+blue = "#76634c"
+magenta = "#9b4d61"
+cyan = "#713a56"
+white = "#a94a34"
 
 [colors.bright]
-black = "#6F4C3E"
+black = "#C8AC86"
 red = "#a02b16"
-green = "#b76e79"
+green = "#9e4f5b"
 yellow = "#694C45"
-blue = "#AD9980"
-magenta = "#b76e81"
-cyan = "#3b3b28"
-white = "#DEA193"
+blue = "#76634c"
+magenta = "#9b4d61"
+cyan = "#713a56"
+white = "#a94a34"
