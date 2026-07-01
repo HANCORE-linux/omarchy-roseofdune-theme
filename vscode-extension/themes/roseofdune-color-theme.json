@@ -28,7 +28,7 @@
     "selection.background": "#e4cace",
     "sideBar.background": "#efdfca",
     "sideBar.foreground": "#35302a",
-    "sideBarTitle.foreground": "#8a3a52",
+    "sideBarTitle.foreground": "#78292e",
     "sideBarSectionHeader.background": "#e8d6bf",
     "activityBar.background": "#ecdcc6",
     "activityBar.foreground": "#9e4f5b",
@@ -37,7 +37,7 @@
     "activityBarBadge.foreground": "#F5E6D3",
     "statusBar.background": "#9e4f5b",
     "statusBar.foreground": "#F5E6D3",
-    "statusBar.noFolderBackground": "#8a3a52",
+    "statusBar.noFolderBackground": "#78292e",
     "statusBar.debuggingBackground": "#a02b16",
     "titleBar.activeBackground": "#ecdcc6",
     "titleBar.activeForeground": "#35302a",
@@ -64,7 +64,7 @@
     "dropdown.border": "#c8ac86",
     "button.background": "#9e4f5b",
     "button.foreground": "#F5E6D3",
-    "button.hoverBackground": "#8a3a52",
+    "button.hoverBackground": "#78292e",
     "badge.background": "#9e4f5b",
     "badge.foreground": "#F5E6D3",
     "panel.border": "#d8c3a8",
@@ -82,7 +82,7 @@
     "terminal.ansiGreen": "#9e4f5b",
     "terminal.ansiYellow": "#644535",
     "terminal.ansiBlue": "#76634c",
-    "terminal.ansiMagenta": "#9b4d61",
+    "terminal.ansiMagenta": "#78292e",
     "terminal.ansiCyan": "#713a56",
     "terminal.ansiWhite": "#a94a34",
     "terminal.ansiBrightBlack": "#C8AC86",
@@ -90,7 +90,7 @@
     "terminal.ansiBrightGreen": "#9e4f5b",
     "terminal.ansiBrightYellow": "#694C45",
     "terminal.ansiBrightBlue": "#76634c",
-    "terminal.ansiBrightMagenta": "#9b4d61",
+    "terminal.ansiBrightMagenta": "#78292e",
     "terminal.ansiBrightCyan": "#713a56",
     "terminal.ansiBrightWhite": "#a94a34"
   },
@@ -145,7 +145,7 @@
         "keyword.control.import"
       ],
       "settings": {
-        "foreground": "#8a3a52"
+        "foreground": "#78292e"
       }
     },
     {
@@ -177,7 +177,7 @@
         "entity.name.type.class"
       ],
       "settings": {
-        "foreground": "#9b4d61"
+        "foreground": "#78292e"
       }
     },
     {
@@ -243,7 +243,7 @@
         "entity.name.module"
       ],
       "settings": {
-        "foreground": "#8a3a52"
+        "foreground": "#78292e"
       }
     },
     {

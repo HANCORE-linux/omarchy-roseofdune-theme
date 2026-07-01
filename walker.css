@@ -1,56 +1,104 @@
 /* ────────────────────────────────────────────────────────────
- * RoseofDune — Walker  ·  "Rose at dusk over dunes"
- * compact cream dune panel · warm rose→salmon→terracotta gradient frame
- * clean gradient selection (no side bar)
+ * RoseofDune — Walker  ·  harbor-style compact layout + roseofdune gradient frame
  * ────────────────────────────────────────────────────────────
  */
-@define-color base          #F5E6D3;
+@define-color selected-text #78292e;   /* wine */
 @define-color text          #35302a;
-@define-color subtle        #8a7058;
+@define-color base          #F5E6D3;
+@define-color border        #8a7058;   /* taupe */
+@define-color foreground    #35302a;
+@define-color background    #F5E6D3;
+@define-color border2       #9e4f5b;   /* rose accent */
 @define-color accent        #9e4f5b;
-@define-color terracotta    #a02b16;
-@define-color wine          #8a3a52;
 @define-color salmon        #DEA193;
-@define-color selected-text #8a3a52;
+@define-color wine          #78292e;
 
 @keyframes open {
-    from { opacity: 0; transform: scaleY(0.95) translateY(-6px); }
-    to   { opacity: 1; transform: scaleY(1) translateY(0); }
+    from {
+        opacity: 0;
+        transform: scaleY(0.3);
+    }
+    to {
+        opacity: 1;
+        transform: scaleY(1);
+    }
 }
+
 window * {
-    all: unset; color: @text; background: none; border: none;
-    margin: 0; padding: 0; font-size: 14px; font-weight: 500;
+    all: unset;
+    color: @text;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
 }
+
+/* compact panel (harbor layout) + roseofdune gradient frame (previous look) */
 window .box-wrapper {
-    border-radius: 16px; padding: 8px; margin: 16px;
-    min-width: 300px; max-width: 300px;
-    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0;
+    min-width: 230px;
+    max-width: 230px;
+    border: 2px solid @border2;
     background-image:
         linear-gradient(180deg, alpha(#f9eede, 0.97), alpha(#f0dec6, 0.97)),
         linear-gradient(135deg, alpha(@accent, 0.55), alpha(@salmon, 0.78), alpha(@wine, 0.5));
     background-origin: border-box;
     background-clip: padding-box, border-box;
-    box-shadow: 0 7px 22px alpha(#35302a, 0.34);
-    animation: open 200ms cubic-bezier(0.34, 1.25, 0.5, 1) forwards;
+    box-shadow: 0 2px 12px alpha(black, 0.85);
+    animation: open 200ms cubic-bezier(0.34, 1.2, 0.64, 1) forwards;
     transform-origin: top center;
 }
+
+/* search: only bottom border (previous roseofdune style) */
 window .search-container {
     border-bottom: 1.5px solid @salmon;
-    padding: 6px 8px; margin-bottom: 6px; background: transparent;
+    padding: 5px 8px;
+    margin-bottom: 4px;
+    background: transparent !important;
 }
-window .input { background: transparent; color: @text; caret-color: @terracotta; font-size: 15px; }
-window .keybind-hints { background: transparent; color: @subtle; }
-window .item-text-box { padding: 5px 0; }
+
+window .keybind-hints {
+    background: transparent !important;
+}
+
+window .input {
+    background: transparent;
+    color: @text;
+}
+
+window .item-text-box {
+    padding: 7px 0;
+}
+
 window .item-box {
-    padding: 6px 9px; border-radius: 10px;
+    padding: 0 8px;
+    border-radius: 5px;
     transition: background 150ms ease;
 }
-window .item-image, window .normal-icons, window .large-icons { -gtk-icon-size: 18px; margin-right: 10px; }
-/* kill the default square row-selection (its corners peeked behind the rounded box) */
-window child:selected { background: transparent; }
-/* selected: clean rose→salmon gradient fill, no side bar */
+
+window .item-image {
+    -gtk-icon-size: 18px;
+    margin-right: 10px;
+}
+
+window .normal-icons { -gtk-icon-size: 18px; }
+window .large-icons  { -gtk-icon-size: 18px; }
+
+/* kill the default square row-selection (corners peek behind the rounded box) */
+window child:selected {
+    background: transparent;
+}
+
+/* selected: clean rose→salmon gradient fill, no border */
 window child:selected .item-box {
     background: linear-gradient(90deg, alpha(@accent, 0.22), alpha(@salmon, 0.10));
+    transition: background 150ms ease;
 }
-window child:selected .item-box * { color: @selected-text; transition: color 150ms ease; }
-window .preview { border-radius: 12px; background: alpha(#f0dec6, 0.6); color: @text; padding: 10px; margin: 6px 0; }
+
+window child:selected .item-box * {
+    color: @selected-text;
+    transition: color 150ms ease;
+}
